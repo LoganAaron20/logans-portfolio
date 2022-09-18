@@ -11,7 +11,8 @@ const ProjectsList = () => {
             <div className="image project-1"></div>
             <h3 className="project-name">Movie Application</h3>
             <p className="project-description">
-              Lorem ipsum giveth tow vow dea sesa...
+              Developed a Movie Tracking application using React for the
+              frontend and NodeJS for the backend.
             </p>
           </Link>
         </article>
