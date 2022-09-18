@@ -37,6 +37,9 @@ const Contact = () => {
       <br />
       <br />
       <div className="body">
+        <h1 style={{ color: "black", marginTop: "75px", fontSize: "60px" }}>
+          Feel free to contact me!
+        </h1>
         <div className="contact-form">
           <form onSubmit={onSubmit}>
             <div className="input">
@@ -83,6 +86,9 @@ const Contact = () => {
           </form>
         </div>
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 };
