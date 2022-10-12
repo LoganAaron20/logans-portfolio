@@ -55,7 +55,7 @@ const ProjectsList = () => {
         </article>
         <article className="card">
           <div className="project-bio">
-            <h3 className="project-name">StudyMania</h3>
+            <h3 className="project-name">FlashCard-O-Matic</h3>
             <p className="project-description">
               An application allowing students to create 'Study Cards' in order
               to ace any exams that come their way. Students will be able to
@@ -72,7 +72,7 @@ const ProjectsList = () => {
               </a>
             </div>
           </div>
-          <div className="project-image"></div>
+          <div className="flashcard-image"></div>
         </article>
         <article className="card">
           <div className="project-bio">
@@ -94,7 +94,7 @@ const ProjectsList = () => {
               </a>
             </div>
           </div>
-          <div className="project-image"></div>
+          <div className="grubdash-image"></div>
         </article>
         <article className="card">
           <div className="project-bio">
