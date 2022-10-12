@@ -54,3 +54,20 @@
     background-size: cover;
     justify-content: center;
 }
+
+.skills {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills .skill-intro {
+    color: skyblue;
+    text-decoration: underline;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 70px;
+}

@@ -1,5 +1,17 @@
 import React from "react";
 import "./AboutMe.styles.css";
+import {
+  SiJavascript,
+  SiReact,
+  SiExpress,
+  SiHtml5,
+  SiCss3,
+  SiTypescript,
+  SiJava,
+  SiTailwindcss,
+  SiGit,
+  SiNodedotjs,
+} from "react-icons/si";
 
 const AboutMe = () => {
   return (
@@ -37,6 +49,45 @@ const AboutMe = () => {
           skills in order to land my dream Job in full-stack web development.
         </p>
         <div className="thinkful-image"></div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <div className="skills">
+        <h1 className="skill-intro">Skills:</h1>
+        <br />
+        <br />
+        <div className="icons">
+          <SiJavascript
+            style={{
+              color: "yellow",
+              width: "100px",
+              height: "50px",
+              // marginTop: "70px",
+            }}
+          />{" "}
+          <SiReact style={{ color: "blue", width: "100px", height: "50px" }} />
+          <SiExpress
+            style={{ color: "white", width: "100px", height: "50px" }}
+          />
+          <SiHtml5
+            style={{ color: "Orange", width: "100px", height: "50px" }}
+          />
+          <SiCss3
+            style={{ color: "lightblue", width: "100px", height: "50px" }}
+          />
+          <SiTypescript
+            style={{ color: "darkorange", width: "100px", height: "50px" }}
+          />
+          <SiJava style={{ color: "yellow", width: "100px", height: "50px" }} />
+          <SiTailwindcss
+            style={{ color: "red", width: "100px", height: "50px" }}
+          />
+          <SiGit style={{ color: "gray", width: "100px", height: "50px" }} />
+          <SiNodedotjs
+            style={{ color: "green", width: "100px", height: "50px" }}
+          />
+        </div>
       </div>
     </div>
   );

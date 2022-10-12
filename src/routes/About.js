@@ -12,6 +12,8 @@ const About = () => {
       <br />
       <br />
       <AboutMe />
+      <br />
+      <br />
       <Footer />
     </div>
   );
