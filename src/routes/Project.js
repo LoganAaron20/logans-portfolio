@@ -10,7 +10,7 @@ const Project = () => {
       <Navbar />
       <HeroImage2
         heading="PROJECTS"
-        text="Below are some of my most recent projects!"
+        text="Please feel free to view the live version and leave feeback!"
       />
       <ProjectsList />
       <Footer />
