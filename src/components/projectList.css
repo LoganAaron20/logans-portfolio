@@ -85,6 +85,18 @@
     margin-top: 35px;
 }
 
+.restaurant-project {
+    width: 800px;
+    height: 85%;
+    margin-right: 50px;
+    background-image: url(../assets/Restaurant-reservation.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    border-radius: 8px;
+    margin-top: 35px;
+}
 /* .project-image:hover {
     width: 850px;
     height: 85%;

@@ -1,0 +1,56 @@
+.about-me {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.introduction {
+    line-height: 85px;
+    margin-left: 50px;
+}
+
+.introduction h3 {
+    color: white;
+    line-height: 45px;
+}
+
+/* .introduction .random-image {
+    background-image: url("../assets/roman-synkevych-vXInUOv1n84-unsplash.jpg");
+    width: 400px;
+    height: 500px;
+} */
+
+.name {
+    color: skyblue;
+}
+
+.schooling {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.schooling .completed {
+    text-decoration: underline;
+    color: skyblue;
+    margin-right: 970px;
+}
+
+.schooling .thinkful {
+    color: white;
+    margin-top: 25px;
+}
+
+.schooling .thinkful-description {
+    color: white;
+    margin-top: 15px;
+}
+
+.schooling .thinkful-image {
+    background-image: url("../assets/MyThinkful.jpg");
+    height: 200px;
+    width: 400px;
+    background-size: cover;
+    justify-content: center;
+}

@@ -43,7 +43,12 @@ const ProjectsList = () => {
               seating chart.
             </p>
             <div className="buttons">
-              <button className="project-button">View Project</button>
+              <a
+                className="project-button"
+                href="https://restuarant-reservation-la.herokuapp.com/dashboard?date=2022-10-13"
+              >
+                View Project
+              </a>
               {/* <button
                 className="github-button"
                 onclick="window.location.href='https://github.com/LoganAaron20/restaurant-reservation'"
@@ -61,7 +66,7 @@ const ProjectsList = () => {
           </div>
           {/* <div className="image project-1"></div> */}
           {/* <img className="project-image" src="../assets/WeLoveMovies2.jpg" /> */}
-          <div className="project-image"></div>
+          <div className="restaurant-project"></div>
         </article>
         <article className="card">
           <div className="project-bio">
