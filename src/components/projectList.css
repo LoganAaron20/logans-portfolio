@@ -97,10 +97,19 @@
     border-radius: 8px;
     margin-top: 35px;
 }
-/* .project-image:hover {
-    width: 850px;
+
+.wordle-image {
+    width: 800px;
     height: 85%;
-} */
+    margin-right: 50px;
+    background-image: url(../assets/Screen\ Shot\ 2022-10-12\ at\ 4.39.46\ PM.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-left: 0px;
+    border-radius: 8px;
+    margin-top: 35px;
+}
 
 .card:hover {
     /* padding-top: 35px;

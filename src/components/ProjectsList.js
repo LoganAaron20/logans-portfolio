@@ -8,7 +8,6 @@ const ProjectsList = () => {
       <section className="cards">
         <article className="card">
           <div className="project-bio">
-            {/* <Link to="/movie-application"> */}
             <h3 className="project-name">Movie Application</h3>
             <p className="project-description">
               A fully functional Movie tracker application, allowing users to
@@ -18,7 +17,6 @@ const ProjectsList = () => {
             </p>
             <div className="buttons">
               <button className="project-button">View Project</button>
-              {/* <button className="github-button">Code</button> */}
               <a
                 href="https://github.com/LoganAaron20/we-love-movies-project"
                 className="github-button"
@@ -26,15 +24,11 @@ const ProjectsList = () => {
                 Code
               </a>
             </div>
-            {/* </Link> */}
           </div>
-          {/* <div className="image project-1"></div> */}
-          {/* <img className="project-image" src="../assets/WeLoveMovies2.jpg" /> */}
           <div className="project-image"></div>
         </article>
         <article className="card">
           <div className="project-bio">
-            {/* <Link to="/movie-application"> */}
             <h3 className="project-name">Restaurant Reservation System</h3>
             <p className="project-description">
               An application created to speed up the seating process by 100%.
@@ -49,12 +43,6 @@ const ProjectsList = () => {
               >
                 View Project
               </a>
-              {/* <button
-                className="github-button"
-                onclick="window.location.href='https://github.com/LoganAaron20/restaurant-reservation'"
-              >
-                Code
-              </button> */}
               <a
                 className="github-button"
                 href="https://github.com/LoganAaron20/restaurant-reservation"
@@ -62,15 +50,11 @@ const ProjectsList = () => {
                 Code
               </a>
             </div>
-            {/* </Link> */}
           </div>
-          {/* <div className="image project-1"></div> */}
-          {/* <img className="project-image" src="../assets/WeLoveMovies2.jpg" /> */}
           <div className="restaurant-project"></div>
         </article>
         <article className="card">
           <div className="project-bio">
-            {/* <Link to="/movie-application"> */}
             <h3 className="project-name">StudyMania</h3>
             <p className="project-description">
               An application allowing students to create 'Study Cards' in order
@@ -80,7 +64,6 @@ const ProjectsList = () => {
             </p>
             <div className="buttons">
               <button className="project-button">View Project</button>
-              {/* <button className="github-button">Code</button> */}
               <a
                 href="https://github.com/LoganAaron20/Flashcard-O-Matic"
                 className="github-button"
@@ -88,15 +71,11 @@ const ProjectsList = () => {
                 Code
               </a>
             </div>
-            {/* </Link> */}
           </div>
-          {/* <div className="image project-1"></div> */}
-          {/* <img className="project-image" src="../assets/WeLoveMovies2.jpg" /> */}
           <div className="project-image"></div>
         </article>
         <article className="card">
           <div className="project-bio">
-            {/* <Link to="/movie-application"> */}
             <h3 className="project-name">GrubDash</h3>
             <p className="project-description">
               An application allowing users to order food online whenever the
@@ -114,11 +93,29 @@ const ProjectsList = () => {
                 Code
               </a>
             </div>
-            {/* </Link> */}
           </div>
-          {/* <div className="image project-1"></div> */}
-          {/* <img className="project-image" src="../assets/WeLoveMovies2.jpg" /> */}
           <div className="project-image"></div>
+        </article>
+        <article className="card">
+          <div className="project-bio">
+            {/* <Link to="/movie-application"> */}
+            <h3 className="project-name">Wordle Clone</h3>
+            <p className="project-description">
+              A clone of 'New York Times' most popular online puzzle game.
+              This was created using Vanilla Javascript along with CSS3 and
+              HTML5.
+            </p>
+            <div className="buttons">
+              <button className="project-button">View Project</button>
+              <a
+                href="https://github.com/LoganAaron20/GrubDash-frontend"
+                className="github-button"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          <div className="wordle-image"></div>
         </article>
       </section>
     </div>
