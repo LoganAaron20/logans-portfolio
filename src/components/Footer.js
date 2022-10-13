@@ -1,13 +1,6 @@
 import React from "react";
 import "./footer.css";
-import {
-  FaHome,
-  FaPhone,
-  FaMailBulk,
-  FaLinkedin,
-  FaFacebook,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaHome, FaPhone, FaMailBulk } from "react-icons/fa";
 
 import { SiLinkedin } from "react-icons/si";
 import { GoMarkGithub } from "react-icons/go";
