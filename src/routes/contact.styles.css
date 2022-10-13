@@ -2,11 +2,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url(../assets/contactFormBackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .contact-page .words {
  width: 50%;
- background-color: black;
  color: white;
 }
 
@@ -15,6 +17,7 @@
     text-align: center;
     font-size: 20px;
     font-weight: 200;
+    margin-top: 15px;
 }
 
 .contact-page .words .talk {
@@ -82,4 +85,28 @@
 .submit-button {
     margin-left: 130px;
     margin-top: 15px;
+    margin-bottom: 15px;;
+}
+
+/* Mobile Devices (415px) */
+
+@media screen and (max-width: 415px) {
+
+    /* font-size, font-weight, margin-top? */
+    .contact-page .words .talk {
+        font-size: 35px;
+        font-weight: 300;
+        margin-top: 20px;
+    }
+
+    .contact-page .words .comment {
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    .contact-page {
+       background-image: url(../assets/contactFormBackground.jpg);
+       background-size: cover;
+       background-position: right;
+    }
 }

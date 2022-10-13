@@ -55,6 +55,14 @@
     justify-content: center;
 }
 
+.schooling .thinkful-image:hover {
+    height: 500px;
+    width: 700px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
 .skills {
     margin-left: 50px;
     display: flex;
@@ -70,4 +78,67 @@
   display: flex;
   flex-direction: row;
   margin-top: 70px;
+}
+
+/* Mobile Devices (415px) */
+
+@media screen and (max-width: 415px) {
+
+    .name {
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .introduction h3 {
+        line-height: 35px;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    .schooling .completed {
+        margin-right: 0px;
+
+    }
+
+   .schooling .thinkful-description {
+        font-size: 15px;
+        line-height: 35px;
+        text-align: center;
+   }
+
+   .icons {
+    display: block;
+   }
+}
+
+/* Tablet Devices */
+@media screen and (max-width: 915px) {
+    .name {
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .introduction h3 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .schooling .completed {
+        margin-right: 0px;
+        font-size: 45px;
+    }
+
+    .schooling .thinkful {
+        font-size: 36px;
+    }
+
+    .schooling .thinkful-description {
+        text-align: center;
+        font-size: 30px;
+    }
+
+  .icons {
+    display: block;
+  }
 }

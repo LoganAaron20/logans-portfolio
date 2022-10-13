@@ -9,6 +9,9 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 
+import { SiLinkedin } from "react-icons/si";
+import { GoMarkGithub } from "react-icons/go";
+
 const Footer = () => {
   return (
     <div className="footer">
@@ -47,17 +50,21 @@ const Footer = () => {
             challenges
           </p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+            <SiLinkedin
+              style={{
+                color: "white",
+                marginRight: "1rem",
+                width: "30px",
+                height: "30px",
+              }}
             />
-            <FaTwitter
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
+            <GoMarkGithub
+              style={{
+                color: "white",
+                marginRight: "1rem",
+                width: "50px",
+                height: "30px",
+              }}
             />
           </div>
         </div>

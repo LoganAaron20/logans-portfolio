@@ -59,9 +59,11 @@
 .project-description {
     /* color: white; */
     padding: 10px;
-    width: 85%;
+    width: 55%;
     line-height: 35px;
-    margin-left: 75px;
+    margin-left: 180px;
+    margin-top: 35px;
+    text-align: center;
 }
 
 .project-name {
@@ -82,7 +84,7 @@
     background-repeat: no-repeat;
     margin-left: 0px;
     border-radius: 8px;
-    margin-top: 35px;
+    margin-top: 23px;
 }
 
 .restaurant-project {
@@ -95,7 +97,7 @@
     background-repeat: no-repeat;
     margin-left: 0px;
     border-radius: 8px;
-    margin-top: 35px;
+    margin-top: 23px;
 }
 
 .wordle-image {
@@ -108,7 +110,7 @@
     background-repeat: no-repeat;
     margin-left: 0px;
     border-radius: 8px;
-    margin-top: 35px;
+    margin-top: 23px;
 }
 
 .grubdash-image {
@@ -121,7 +123,7 @@
     background-repeat: no-repeat;
     margin-left: 0px;
     border-radius: 8px;
-    margin-top: 35px;
+    margin-top: 23px;
 }
 
 .flashcard-image {
@@ -134,7 +136,7 @@
     background-repeat: no-repeat;
     margin-left: 0px;
     border-radius: 8px;
-    margin-top: 35px;
+    margin-top: 23px;
 }
 
 .card:hover {
@@ -152,7 +154,7 @@
    width: 100%;
    display: flex;
    justify-content: center;
-   margin-top: 100px;
+   margin-top: 70px;
 }
 
 .project-button {
@@ -199,6 +201,83 @@
     color: black;
 }
 
+/* Media Query 915px (tablet)*/
+@media screen and (max-width: 915px) {
+
+    .card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .restaurant-project {
+        background: none;
+    }
+
+    .wordle-image {
+        background: none;
+    }
+
+    .project-image {
+        background: none;
+    }
+
+    .grubdash-image {
+        background: none;
+    }
+
+    .flashcard-image {
+        background: none;
+    }
+}
+
+/* Mobile phones (415px) */
+@media screen and (max-width: 415px) {
+
+    .card {
+        display: block;
+        flex-direction: column;
+        margin-top: 0px;
+        border-bottom: white 2px solid;
+        height: 100%;
+    }
+
+    .project-name {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .project-description {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 35px;
+        margin-top: 0px;
+        width: 80%;
+    }
+
+    .grubdash-image {
+        background: none;
+    }
+
+    .flashcard-image {
+        background: none;
+    }
+
+    .project-image {
+        background: none;
+    }
+
+    .restaurant-project {
+        background: none;
+    }
+
+    .wordle-image {
+        background: none;
+    }
+
+    /* .flash {
+        margin-top: 40px;
+    } */
+}
 
 
 
