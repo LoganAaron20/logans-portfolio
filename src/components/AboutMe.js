@@ -25,7 +25,6 @@ const AboutMe = () => {
           <br />
           Contact me directly via Email and or Phone and lets get started!
         </h3>
-        {/* <div className="random-image"></div> */}
       </div>
       <br />
       <br />
@@ -63,7 +62,6 @@ const AboutMe = () => {
               color: "yellow",
               width: "100px",
               height: "50px",
-              // marginTop: "70px",
             }}
           />{" "}
           <SiReact style={{ color: "blue", width: "100px", height: "50px" }} />

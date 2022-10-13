@@ -5,8 +5,6 @@
 
 .project {
     height: auto;
-    /* background-image: url("../assets/movie-app.png"); */
-    /* background-image: url("../assets/react1.jpg"); */
     display: flex;
     flex-direction: row;
    
@@ -42,15 +40,6 @@
    color: black;
    margin: 5px;
 }
-/* 
-.project-image {
-    width: 50%;
-    height: 50%;
-    margin-left: 200px;
-    margin-top: 30px;
-    border: 1px solid white;
-    border-radius: 15px;
-} */
 
 .description {
     display: flex;
